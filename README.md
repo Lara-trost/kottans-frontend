@@ -114,26 +114,26 @@ cd, pwd, rm, rmdir, find, finger ...
 ##### назвіть (хоча б одну) річ яка була для вас новою
 
 git-remote - * *керування набором відстежуваних репозиторіїв* *
-![Lists remote repos](https://git-scm.com/docs/git-remote)
+[Lists remote repos](https://git-scm.com/docs/git-remote)
 git-fetch — * *завантажує об’єкти та посилання з іншого репозиторію* *
-![git fetch](https://git-scm.com/docs/git-fetch)
+[git fetch](https://git-scm.com/docs/git-fetch)
 git-branch - * *список, створення або видалення гілок* *
-![git branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r)
-![merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
-![Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
-![git rebase branchname](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+[git branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r)
+[merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
+[Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+[git rebase branchname](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
  Форкінг - це спосіб створення копії даного репозиторію. При спільній роботі над проектами, розміщеними на GitHub, типові робочі процеси спочатку створюють вилку репо, а потім працюють над цією локальною вилкою. Таким чином, ми можемо зрештою об'єднати наші зміни назад в основне репо, створивши запит на витягування. Pull Request - це комміт чи серія коммітів, які ви надсилаєте власнику репозиторію, щоб він включив його у своє дерево.
- ![pull request](https://docs.github.com/en/pull-requests) 
- ![About pull request merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) 
-![Style Guides](https://google.github.io/styleguide/)
-![About pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) 
-![The Perfect Code Review Process](https://medium.com/osedea/the-perfect-code-review-process-845e6ba5c31)
-![What is Code Review?](https://smartbear.com/learn/code-review/what-is-code-review/) 
-![Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) 
-![Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) 
-![What is CI/CD?](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
-![Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/) 
+ [pull request](https://docs.github.com/en/pull-requests) 
+ [About pull request merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) 
+[Style Guides](https://google.github.io/styleguide/)
+[About pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) 
+[The Perfect Code Review Process](https://medium.com/osedea/the-perfect-code-review-process-845e6ba5c31)
+[What is Code Review?](https://smartbear.com/learn/code-review/what-is-code-review/) 
+[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) 
+[Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) 
+[What is CI/CD?](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
+[Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/) 
 
 ##### назвіть (хоча б одну) річ яка вас здивувала
  
@@ -165,5 +165,248 @@ Some basic Git commands are:
 * git push * *використовується для зв’язку з іншим репозиторієм, обчислення того, що ваша локальна база даних має, а віддалена — ні, а потім передає різницю в інше сховище. Для цього потрібен доступ для запису до іншого репозиторію, тому він зазвичай якимось чином автентифікується.* *
 * git put * *Git отримає зміни із заданого віддаленого сховища. а потім відразу спробує злити їх до поточної гілки* *
 * git remote add <name> <url> * *є інструментом керування вашим записом віддалених сховищ. Це дозволяє зберігати довгі URL-адреси як короткі дескриптори, наприклад «походження», щоб вам не потрібно було їх постійно вводити. Ви можете мати кілька таких, і git remoteкоманда використовується для їх додавання, зміни та видалення.* *
+
+## Intro to HTML and CSS
+
+### [ Intro to HTML & CSS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture)
+
+![HTML](./task_html_css_intro/html-coursera.png)
+![CSS](./task_html_css_intro/css-coursera.png)
+
+ ### [Learn HTML](https://www.codecademy.com/learn/learn-html)
+
+ ![HTML](./task_html_css_intro/html-codecademy.png)
+
+ ### [Learn CSS](https://www.codecademy.com/learn/learn-css)
+
+ ![CSS](./task_html_css_intro/css-codecademy.png)
+
+ - ##### назвіть (хоча б одну) річ яка була для вас новою
+У відео: SublimeText 3, Browser sync. Я використовую Visual Studio Code, Live Server.
+Resources:
+ - W3C
+ - caniuse.com
+ - validator.w3.org
+ - csszengarden.com
+ Вивчала HTML, CSS в Codecademy раніше, Bootstrap на інших ресурсах.
+  ##### назвіть (хоча б одну) річ яка вас здивувала
+Вчитися по відео мені складно, краще сприймаю інформацію, коли я її практикую. Майже все було знайомим.
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+
+<!--
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Larysa Trostinetska">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>My title</title>
+    -->
+  <!--Fonts-->
+<!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Shrikhand&display=swap" rel="stylesheet">
+-->
+   <!-- displays site properly based on user's device -->
+  <!--add Bootstrap 4 befor my css-->
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  -->
+<!--CSS-->
+  <!--<link rel="stylesheet" href="normalise.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+        </nav>
+    </header>
+    <main>
+    -->
+  <!--images -->
+  <!--<img src="./cathy-pham-FLQh5dkd4zk-unsplash.jpg" alt="">
+                <figure>
+                    <img src="wesley-tingey--nZynZmR3Ls-unsplash.jpg" alt="">
+                </figure>
+                <figcaption>You don't need to be the athlete</figcaption>
+                -->
+<!--Для того щоб додати кілька малюнків srcset-->
+  <!--<picture>
+                <source media="(max-width: 375px)" srcset="./images/image-product-mobile.jpg">
+                <source media="(min-width: 600px)" srcset="./images/image-product-desktop.jpg">
+                <img src="./images/image-product-mobile.jpg" class="img-fluid" alt="perfume" />
+            </picture>
+        <section class="">    
+        </section>
+        <article>
+        </article>
+        <aside>
+        </aside>
+  -->
+<!--audio, video, gif-->
+<!--<audio controls>
+        <source src="" type="audio/mp3">
+      </audio> 
+      <video src="" controls>
+      </video>
+      <embed src=""/>
+    </main>
+    <footer>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
+-->
+
+[HTML Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)
+
+<!--
+###### table
+ <table>
+      <coption>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td> 
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td colspan="2"></td>
+          </tr>
+        </tfoot>
+        </coption>
+    </table>
+-->
+<!--###### form
+<form action="submission.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+      </form> 
+      -->
+
+<!--The purpose of a <form> is to allow users to input information and send it.
+The <form>‘s action attribute determines where the form’s information goes.
+The <form>‘s method attribute determines how the information is sent and processed.
+To add fields for users to input information we use the <input> element and set the type attribute to a field of our choosing:
+Setting type to "text" creates a single row field for text input.
+Setting type to "password" creates a single row field that censors text input.
+Setting type to "number" creates a single row field for number input.
+Setting type to "range" creates a slider to select from a range of numbers.
+Setting type to "checkbox" creates a single checkbox which can be paired with other checkboxes.
+Setting type to "radio" creates a radio button that can be paired with other radio buttons.
+Setting type to "list" will pair the <input> with a <datalist> element if the id of both are the same.
+Setting type to "submit" creates a submit button.
+A <select> element is populated with <option> elements and renders a dropdown list selection.
+A <datalist> element is populated with <option> elements and works with an <input> to search through choices.
+A <textarea> element is a text input field that has a customizable area.
+When a <form> is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.
+Using the <form> element in conjunction with the other elements listed above allows us to create sites that take into consideration the wants and needs of our users. Take the opportunity to take what you’ve learned, and apply it!-->
+<!--
+/*Global styles*/
+html {
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+main {
+}
+
+/*typography*/
+
+h1 {
+}
+
+/* header*/
+
+header {
+}
+
+a {
+}
+
+/*main */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+}
+
+figcaption {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+}
+
+/*buttons*/
+
+button {
+}
+
+/*media*/
+
+@media only screen and (max-width: 650px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/*body in center центрування елементу на сторінці*/
+    body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    }
+-->
+
+[css codecademy](https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet)
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+[Learn web development - mdn](https://developer.mozilla.org/en-US/docs/Learn)
+
 
 
