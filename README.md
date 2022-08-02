@@ -188,8 +188,9 @@ Resources:
  - caniuse.com
  - validator.w3.org
  - csszengarden.com
+
  Вивчала HTML, CSS в Codecademy раніше, Bootstrap на інших ресурсах.
-  ##### назвіть (хоча б одну) річ яка вас здивувала
+ - ##### назвіть (хоча б одну) річ яка вас здивувала
 Вчитися по відео мені складно, краще сприймаю інформацію, коли я її практикую. Майже все було знайомим.
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
 
@@ -407,6 +408,189 @@ button {
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 [Learn web development - mdn](https://developer.mozilla.org/en-US/docs/Learn)
+
+## Responsive Web Design
+
+### [Основи адаптивного веб-дизайну](https://web.dev/i18n/en/responsive-web-design-basics/)
+
+- ##### назвіть (хоча б одну) річ яка була для вас новою
+1. Встановити вікно перегляду
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+2. Розмір вмісту відповідно до області перегляду 
+ - зображення 
+ ```
+ img {
+  max-width: 100%;
+  display: block;
+}
+ ```
+- Flexbox 
+- CSS Grid Layout 
+- Макет із кількома стовпцями Multicol
+3. Використовуйте медіа-запити CSS для швидкої реакції 
+ - width (min-width, max-width)
+ - height (min-height, max-height)
+ - orientation
+ - aspect-ratio
+ - hover
+ - pointer
+ - any-hover
+ - any-pointer
+4. Виберіть основні точки зупину, починаючи з малого, а потім продовжуючи 
+5. Перегляд точок зупинки медіа-запитів у Chrome DevTools
+  ```
+@media (max-width: 600px) {
+}
+@media (min-width: 601px) {
+}
+  ```
+
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+В медіа-запитах використовується не лише ширина чи довжина екрану.
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+Медіа-запити, Flexbox, Grid ...
+
+### [FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)
+
+### [Flexbox Froggy](http://flexboxfroggy.com/#uk) - гра для закріплення
+
+![Flexbox Froggy](./task_responsive_web_design/flexbox-froggy.png)
+
+- ##### назвіть (хоча б одну) річ яка була для вас новою
+*order*
+.yellow {
+order: 3;
+}
+ - ##### назвіть (хоча б одну) річ яка вас здивувала
+Переміщення елементів в іншому порядку.
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+```
+section {
+  display: flex;
+}
+ display: inline-flex;
+```
+![flex container](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png)
+
+*flex-direction* визначає напрямок елементів в контейнері та може набувати наступних значень:
+ - row: елементи розташовані так само, як напрямок тексту.
+ - row-reverse: елементи розташовані протилежно напрямку тексту.
+ - column: елементи розташовані з гори до низу.
+ - column-reverse: елементи розташовані з низу до гори.
+
+*justify-content* вирівнює елементи по горизонталі й набуває таких значень:
+ - flex-start: Елементи вирівнюються по лівій стороні контейнера.
+ - flex-end: Елементи вирівнюються по правій стороні контейнера.
+ - center: Елементи вирівнюються по центру контейнера.
+ - space-between: Елементи буде зображено з рівними відступами поміж них.
+ - space-around: Елементи буде зображено з рівними відступами навколо них.
+
+*align-items* вирівнює елементи вертикально і може набувати таких значень:
+ - flex-start: елементи вирівнюються за верхнім краєм контейнеру.
+ - flex-end: елементи вирівнюються за нижнім краєм контейнеру.
+ - center: елементи вирівнюються вертикально по середині контейнера.
+ - baseline: елементи буде розміщено на базовій лінії контейнера.
+ - stretch: елементи розтягуються заповнюючи контейнер.
+
+*align-self* (застосувується до окремого елементу) вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості align-items. Ця властивість набуває тих самих значень, що й align-items:
+flex-start, flex-end, center, baseline, stretch
+
+*flex-wrap* :
+nowrap: Кожен елемент буде розташований один за одним в одному рядку. Ширина елементів встановлюється автоматично, щоб вміститись в рядок.
+wrap: Елементи переносятся до наступного рядка.
+wrap-reverse: Елементи переносятся до наступного рядка у зворотньому порядку.
+
+Дві властивості flex-direction та flex-wrap найчастіше використовуються разом, тому існує скорочена властивість *flex-flow*, що обʼєднує їх. Ця властивість приймає одне значення кожної з властивостей, які відокремлені пробілом.
+flex-flow: row wrap;
+
+*align-content*, щоб вказати як декілька рядків мають бути розташовані один до одного. Властивість набуває таких значень:
+ - flex-start: Рядки буде розташовано вгорі контейнеру.
+ - flex-end: Рядки буде розташовано внизу контейнеру.
+ - center: Рядки групуються вертикально по центру контейнеру.
+ - space-between: Рядки розташовуються з однаковими проміжками навколо них.
+ - space-around: Рядки розташовуються з однаковими проміжками між ними.
+ - stretch: Рядки розтягуються заповнюючи контейнер рівномірно.
+ align-content визначає інтервал поміж рядками, в той час як *align-items* визначає, як елементи буде вирівняно в контейнері в цілому. Коли у вас лише один рядок, align-content не має ніякого ефекту.
+```
+*flex-basis*: auto; 500px; 30%;
+
+*flex-grow*: 0; 1 ...
+
+*flex-shrink*: 1; 0 ...
+
+flex-grow, flex-shrink, flex-basis together:
+*flex*: 0 1 auto;
+```
+[Шпаргалка по Flexbox](https://fls.guru/flexbox.html)
+
+### [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)
+
+### [Grid Garden](http://cssgridgarden.com/) - гра для закріплення.
+
+- ##### назвіть (хоча б одну) річ яка була для вас новою
+```
+order: 1;
+grid-temlate:
+[start] "header header" 100px [row2]
+[row2] "side content" 1fr [row-end] / 150px 1fr;
+```
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+Спосіб запису:
+```
+grid-temlate:
+[start] "header header" 100px [row2]
+[row2] "side content" 1fr [row-end] / 150px 1fr;
+```
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+```
+display:grid;
+display: inline-grid;
+grid-template-columns: auto 200px 1fr 30%; repeat(3, 1fr)
+grid-template-rows: 200px minmax(150px, 1fr) fit-content(100px)
+repeat(auto-fit, minmax(60px, 1fr));
+grid-template: rows / columns;
+
+grid-column-gap: 10px;
+grid-rows-gap: 5px;
+grid-gap: 5px 10px; (rows) (columns)
+gap: 20px;
+
+grid-template-areas: 
+"header header header"
+"advert content content"
+"advert footer footer"
+
+grid-area: header; footer; content ...
+Для неявної сітки:
+grid-auto-rows: 200px;
+grid-auto columns: 100px;
+grid-auto-flow: row or column or dense;
+
+grid-row-start: auto or span 2
+grid-row-end: 3
+grid-column-start: 1
+grid-column-end: 3
+
+grid-template-rows: [start] 1fr [row2] 1fr [row-end];
+grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+grid-row-start: start;
+grid-column-start: col3;
+
+grid-row: 1 / 4;
+grid-column: 1 / 3;
+grid-area: horisontal line to start at/ vertical line to start at/ horisontal line to end at / vertical line to end at;
+
+order: 1;
+
+Вирівнювання елементів сітки:
+justify-self(по горизонталі): stretch(default), start, end, center;
+align-self(по вертикалі): stretch, start, end, center;
+Вирівняти всі елементи в сітці:
+justify-items: stretch(default), start, end, center;
+align-items: stretch(default), start, end, center;
+```
+[CSS Grid Layout](https://fls.guru/grid.html)
+
 
 
 
