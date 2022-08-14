@@ -3,108 +3,117 @@
 ## Git та GitHub
 
 ### Version Control with Git (Udacity)
- 
+
 ![Version Control with Git](./git-one.png)
 
-  ##### назвіть (хоча б одну) річ яка була для вас новою
-  З Git не працювала раніше.
+##### назвіть (хоча б одну) річ яка була для вас новою
+
+З Git не працювала раніше.
 
 - ##### назвіть (хоча б одну) річ яка вас здивувала
-Кожен крок документується! 
+
+  Кожен крок документується!
 
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
-Some Git commands are:
- * git init * *створити новий репозиторій* *
- * git clone <path-to-repository-to-clone> * *клонувати репозиторій* *
- * git status * *визначити статус репозиторію* *
- * git log * *відобразити коміти сховища* *
- * git log --one line * *однією лінією* *
- * git log --stat * *перегляд змінених файлів* *
- * git log -p * *перегляд змін у файлі* *
- * git log -p --stat * *скільки файлів було змінено і кількість змінених рядків* *
- * git log -p -w * *ігнорувати пробіли* * 
- * git add <file1> <file2> ... <fileN> * *переміщення файлів із робочого каталогу до проміжного індексу* *
- * gid add . * *додати все* *
- * git show  * *показати комміт* *
- * git commit -m "My commit" * *додати комміт до репо* *
- * git diff * *перегляд внесених але ще не зафіксованих змін* *
- * git tag -a <tagName> -m "my version 1.4" * *додати таг до комміту* *
- * git tag -d <tagName> * *видалити таг* *
- * git branch * *список гілок у сховищі* *
- * git branch <branchName> <SHA> * *створити гілку* *
- * git branch -d <branchName> * *видалити гілку* *
- * git checkout <branchName> * *перейти на гілку* *
- * git log --oneline --decorate * *відображення гілок* *
- * git checkout -b footer master * *створити нову гілку та переключитися на неї* *
- * git log --oneline --decorate --graph --all * *переглянути всі гілки одразу* *
- * git reset --hard HEAD^ * *скасувати злиття* *
- * git merge <name-of-branch-to-merge-in> * *злиття гілок* *
- * git commit --amend * *зміна останнього комітту* *
- * git revert <SHA-of-commit-to-revert> * *повернення комміту* *
- * git reflog * *отримати доступ до стертого вмісту* *
- * git reset <reference-to-commit> * *скидання (стертя) комміту* *
- * git reset --mixed * *візьме зміни, внесені в комміт і перемістить їх до робочого каталогу* *
- * git reset --soft * *візьме зміни, внесені в комміт і перемістить їх до індекcу проміжку* *
- * git reset --hard * *візьме зміни, внесені в комміт і зітре їх* *
+  Some Git commands are:
+
+* git init \* _створити новий репозиторій_ \*
+* git clone <path-to-repository-to-clone> \* _клонувати репозиторій_ \*
+* git status \* _визначити статус репозиторію_ \*
+* git log \* _відобразити коміти сховища_ \*
+* git log --one line \* _однією лінією_ \*
+* git log --stat \* _перегляд змінених файлів_ \*
+* git log -p \* _перегляд змін у файлі_ \*
+* git log -p --stat \* _скільки файлів було змінено і кількість змінених рядків_ \*
+* git log -p -w \* _ігнорувати пробіли_ \*
+* git add <file1> <file2> ... <fileN> \* _переміщення файлів із робочого каталогу до проміжного індексу_ \*
+* gid add . \* _додати все_ \*
+* git show \* _показати комміт_ \*
+* git commit -m "My commit" \* _додати комміт до репо_ \*
+* git diff \* _перегляд внесених але ще не зафіксованих змін_ \*
+* git tag -a <tagName> -m "my version 1.4" \* _додати таг до комміту_ \*
+* git tag -d <tagName> \* _видалити таг_ \*
+* git branch \* _список гілок у сховищі_ \*
+* git branch <branchName> <SHA> \* _створити гілку_ \*
+* git branch -d <branchName> \* _видалити гілку_ \*
+* git checkout <branchName> \* _перейти на гілку_ \*
+* git log --oneline --decorate \* _відображення гілок_ \*
+* git checkout -b footer master \* _створити нову гілку та переключитися на неї_ \*
+* git log --oneline --decorate --graph --all \* _переглянути всі гілки одразу_ \*
+* git reset --hard HEAD^ \* _скасувати злиття_ \*
+* git merge <name-of-branch-to-merge-in> \* _злиття гілок_ \*
+* git commit --amend \* _зміна останнього комітту_ \*
+* git revert <SHA-of-commit-to-revert> \* _повернення комміту_ \*
+* git reflog \* _отримати доступ до стертого вмісту_ \*
+* git reset <reference-to-commit> \* _скидання (стертя) комміту_ \*
+* git reset --mixed \* _візьме зміни, внесені в комміт і перемістить їх до робочого каталогу_ \*
+* git reset --soft \* _візьме зміни, внесені в комміт і перемістить їх до індекcу проміжку_ \*
+* git reset --hard \* _візьме зміни, внесені в комміт і зітре їх_ \*
   .gitignore
   fileName
 
-
-
 ## Linux CLI, and HTTP
- 
+
 ### Linux Survival
+
 ![Linux](./task_linux_cli/linux.png)
 ![Quiz 1](./task_linux_cli/linux-one.png)
 ![Quiz 2](./task_linux_cli/linux-two.png)
 ![Quiz 3](./task_linux_cli/linux-three.png)
 ![Quiz 4](./task_linux_cli/linux-four.png)
- 
+
 ##### назвіть (хоча б одну) річ яка була для вас новою
-  Linux
+
+Linux
+
 - ##### назвіть (хоча б одну) річ яка вас здивувала
-Команди Linux і Windows схожі
- 
+
+  Команди Linux і Windows схожі
+
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
- 
+
 cd, pwd, rm, rmdir, find, finger ...
- 
+
 ### HTTP: Протокол, який повинен розуміти кожний веб-розробник
- 
+
 ##### назвіть (хоча б одну) річ яка була для вас новою
- 
+
 Порт за налаштуванням для HTTP – 80.
 Методи:
- - GET: для запиту ресурсу.
- - POST: для створення нового ресурсу.
- - PUT: для оновлення існуючого ресурсу.
- - DELETE: для видалення існуючого ресурсу.
- - HEAD: подібний до GET, проте не передається тіло повідомлення.
- - TRACE: використовується для отримання від сервера інформації про "стрибки", через які пройшов запит. Його можна використовувати для діагностики.
- - OPTIONS: для отримання підтримуваних сервером можливостей. На стороні клієнта його можна використовувати для зміни запиту в залежності від можливостей, підтримуваних сервером.
- 
- Інструменти для перегляду мережного трафіку за HTTP:
- - інспектор Chrome/Webkit
- - проксі для налагодження веб-застосунків, наприклад, Fiddler
- - Charles Proxy (для OSX)
- - програми з інтерфейсом командного рядка  curl, tcpdump та tshark.
-На стороні клієнта застосування, що використовує HTTP, розпізнається за допомогою набору <IP, port>.
-Встановлення з'єднання між двома кінцевими вузлами локальної мережі (ЛМ) – процес, що складається з декількох етапів:
- - встановлення відповідності імені хоста IP-адресі за допомогою DNS
- - встановлення з’єднання з сервером
- - відправлення запиту
- - очікування відповіді
- - закриття з'єднання
- Постійні з'єднання – довготривалі з'єднання, що залишаються відкритими, доки клієнт їх не закриє. Паралельні з'єднання – створюється набір із декількох з'єднань (звичайно максимум – шість з'єднань).
- ##### назвіть (хоча б одну) річ яка вас здивувала
+
+- GET: для запиту ресурсу.
+- POST: для створення нового ресурсу.
+- PUT: для оновлення існуючого ресурсу.
+- DELETE: для видалення існуючого ресурсу.
+- HEAD: подібний до GET, проте не передається тіло повідомлення.
+- TRACE: використовується для отримання від сервера інформації про "стрибки", через які пройшов запит. Його можна використовувати для діагностики.
+- OPTIONS: для отримання підтримуваних сервером можливостей. На стороні клієнта його можна використовувати для зміни запиту в залежності від можливостей, підтримуваних сервером.
+
+Інструменти для перегляду мережного трафіку за HTTP:
+
+- інспектор Chrome/Webkit
+- проксі для налагодження веб-застосунків, наприклад, Fiddler
+- Charles Proxy (для OSX)
+- програми з інтерфейсом командного рядка curl, tcpdump та tshark.
+  На стороні клієнта застосування, що використовує HTTP, розпізнається за допомогою набору <IP, port>.
+  Встановлення з'єднання між двома кінцевими вузлами локальної мережі (ЛМ) – процес, що складається з декількох етапів:
+- встановлення відповідності імені хоста IP-адресі за допомогою DNS
+- встановлення з’єднання з сервером
+- відправлення запиту
+- очікування відповіді
+- закриття з'єднання
+  Постійні з'єднання – довготривалі з'єднання, що залишаються відкритими, доки клієнт їх не закриє. Паралельні з'єднання – створюється набір із декількох з'єднань (звичайно максимум – шість з'єднань).
+
+##### назвіть (хоча б одну) річ яка вас здивувала
+
 Дуже багато теоретичної інформації, яку складно зрозуміти без практики.
- 
+
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
-Методи: GET, POST, PUT, DELETE, HEAD ...
+  Методи: GET, POST, PUT, DELETE, HEAD ...
 
 ## Git Collaboration
 
-###  Introduction to Git and GitHub
+### Introduction to Git and GitHub
 
 ![github week three](./task_git_collaboration/github-one.png)
 ![github week three(2)](./task_git_collaboration/github-two.png)
@@ -113,58 +122,59 @@ cd, pwd, rm, rmdir, find, finger ...
 
 ##### назвіть (хоча б одну) річ яка була для вас новою
 
-git-remote - * *керування набором відстежуваних репозиторіїв* *
+git-remote - \* _керування набором відстежуваних репозиторіїв_ _
 [Lists remote repos](https://git-scm.com/docs/git-remote)
-git-fetch — * *завантажує об’єкти та посилання з іншого репозиторію* *
+git-fetch — _ _завантажує об’єкти та посилання з іншого репозиторію_ _
 [git fetch](https://git-scm.com/docs/git-fetch)
-git-branch - * *список, створення або видалення гілок* *
+git-branch - _ _список, створення або видалення гілок_ \*
 [git branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r)
 [merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
 [Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 [git rebase branchname](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
- Форкінг - це спосіб створення копії даного репозиторію. При спільній роботі над проектами, розміщеними на GitHub, типові робочі процеси спочатку створюють вилку репо, а потім працюють над цією локальною вилкою. Таким чином, ми можемо зрештою об'єднати наші зміни назад в основне репо, створивши запит на витягування. Pull Request - це комміт чи серія коммітів, які ви надсилаєте власнику репозиторію, щоб він включив його у своє дерево.
- [pull request](https://docs.github.com/en/pull-requests) 
- [About pull request merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) 
+Форкінг - це спосіб створення копії даного репозиторію. При спільній роботі над проектами, розміщеними на GitHub, типові робочі процеси спочатку створюють вилку репо, а потім працюють над цією локальною вилкою. Таким чином, ми можемо зрештою об'єднати наші зміни назад в основне репо, створивши запит на витягування. Pull Request - це комміт чи серія коммітів, які ви надсилаєте власнику репозиторію, щоб він включив його у своє дерево.
+[pull request](https://docs.github.com/en/pull-requests)
+[About pull request merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges)
 [Style Guides](https://google.github.io/styleguide/)
-[About pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) 
+[About pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
 [The Perfect Code Review Process](https://medium.com/osedea/the-perfect-code-review-process-845e6ba5c31)
-[What is Code Review?](https://smartbear.com/learn/code-review/what-is-code-review/) 
-[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) 
-[Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) 
+[What is Code Review?](https://smartbear.com/learn/code-review/what-is-code-review/)
+[Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+[Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
 [What is CI/CD?](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
-[Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/) 
+[Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/)
 
 ##### назвіть (хоча б одну) річ яка вас здивувала
- 
+
 Ця інформація потрібна була на початковому етапі при створенні репозиторію в Github. Це б зекономило купу часу.
 
- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
 
- pull request, Code Review
+pull request, Code Review
 
- ### learngitbranching
+### learngitbranching
 
 ![learngitbranching-one](./task_git_collaboration/git-two.png)
 
 ![learngitbranching-two](./task_git_collaboration/git-three.png)
 
 - ##### назвіть (хоча б одну) річ яка була для вас новою
-git fetch, git cherry-pick, git pull ...
+  git fetch, git cherry-pick, git pull ...
 - ##### назвіть (хоча б одну) річ яка вас здивувала
-Сленг в IT - суміш англійської та української.
+  Сленг в IT - суміш англійської та української.
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
-Some basic Git commands are:
-* git rebase * *в основному автоматизована cherry-pick. Він визначає серію комітів, а потім вибирає їх один за одним у тому самому порядку в іншому місці.* *
-* git rebase -i * *змінити порядок комітів, пропустити якісь коміти, об'єднати коміти в один.* *
-* git cherry-pick <Commit1> <Commit2> <...> * *команда використовується для того, щоб прийняти зміни, внесені в один комміт Git, і спробувати повторно ввести їх як новий коміт у гілці, на якій ви зараз перебуваєте.* *
-* git describe <посилання> * *описати, де ти є відносно найближчого орієнтира.* * 
-* git fetch * *зв’язується з віддаленим репозиторієм і отримує всю інформацію, яка знаходиться в цьому сховищі, якої немає у вашому поточному, і зберігає її у вашій локальній базі даних.* *
-* git pull * *по суті, є комбінацією команд git fetch і git merge, де Git отримуватиме дані з віддаленого пристрою, який ви вкажете, а потім негайно намагатиметься об’єднати його з гілкою, на якій ви перебуваєте.* *
-* git pull --rebase * *Якщо поточна гілка та віддалена розійшлися, користувачеві потрібно вказати, як узгодити розбіжні гілки за допомогою --rebase або --no-rebase* *
-* git push * *використовується для зв’язку з іншим репозиторієм, обчислення того, що ваша локальна база даних має, а віддалена — ні, а потім передає різницю в інше сховище. Для цього потрібен доступ для запису до іншого репозиторію, тому він зазвичай якимось чином автентифікується.* *
-* git put * *Git отримає зміни із заданого віддаленого сховища. а потім відразу спробує злити їх до поточної гілки* *
-* git remote add <name> <url> * *є інструментом керування вашим записом віддалених сховищ. Це дозволяє зберігати довгі URL-адреси як короткі дескриптори, наприклад «походження», щоб вам не потрібно було їх постійно вводити. Ви можете мати кілька таких, і git remoteкоманда використовується для їх додавання, зміни та видалення.* *
+  Some basic Git commands are:
+
+* git rebase \* _в основному автоматизована cherry-pick. Він визначає серію комітів, а потім вибирає їх один за одним у тому самому порядку в іншому місці._ \*
+* git rebase -i \* _змінити порядок комітів, пропустити якісь коміти, об'єднати коміти в один._ \*
+* git cherry-pick <Commit1> <Commit2> <...> \* _команда використовується для того, щоб прийняти зміни, внесені в один комміт Git, і спробувати повторно ввести їх як новий коміт у гілці, на якій ви зараз перебуваєте._ \*
+* git describe <посилання> \* _описати, де ти є відносно найближчого орієнтира._ \*
+* git fetch \* _зв’язується з віддаленим репозиторієм і отримує всю інформацію, яка знаходиться в цьому сховищі, якої немає у вашому поточному, і зберігає її у вашій локальній базі даних._ \*
+* git pull \* _по суті, є комбінацією команд git fetch і git merge, де Git отримуватиме дані з віддаленого пристрою, який ви вкажете, а потім негайно намагатиметься об’єднати його з гілкою, на якій ви перебуваєте._ \*
+* git pull --rebase \* _Якщо поточна гілка та віддалена розійшлися, користувачеві потрібно вказати, як узгодити розбіжні гілки за допомогою --rebase або --no-rebase_ \*
+* git push \* _використовується для зв’язку з іншим репозиторієм, обчислення того, що ваша локальна база даних має, а віддалена — ні, а потім передає різницю в інше сховище. Для цього потрібен доступ для запису до іншого репозиторію, тому він зазвичай якимось чином автентифікується._ \*
+* git put \* _Git отримає зміни із заданого віддаленого сховища. а потім відразу спробує злити їх до поточної гілки_ \*
+* git remote add <name> <url> \* _є інструментом керування вашим записом віддалених сховищ. Це дозволяє зберігати довгі URL-адреси як короткі дескриптори, наприклад «походження», щоб вам не потрібно було їх постійно вводити. Ви можете мати кілька таких, і git remoteкоманда використовується для їх додавання, зміни та видалення._ \*
 
 ## Intro to HTML and CSS
 
@@ -173,25 +183,26 @@ Some basic Git commands are:
 ![HTML](./task_html_css_intro/html-coursera.png)
 ![CSS](./task_html_css_intro/css-coursera.png)
 
- ### [Learn HTML](https://www.codecademy.com/learn/learn-html)
+### [Learn HTML](https://www.codecademy.com/learn/learn-html)
 
- ![HTML](./task_html_css_intro/html-codecademy.png)
+![HTML](./task_html_css_intro/html-codecademy.png)
 
- ### [Learn CSS](https://www.codecademy.com/learn/learn-css)
+### [Learn CSS](https://www.codecademy.com/learn/learn-css)
 
- ![CSS](./task_html_css_intro/css-codecademy.png)
+![CSS](./task_html_css_intro/css-codecademy.png)
 
- - ##### назвіть (хоча б одну) річ яка була для вас новою
-У відео: SublimeText 3, Browser sync. Я використовую Visual Studio Code, Live Server.
-Resources:
- - W3C
- - caniuse.com
- - validator.w3.org
- - csszengarden.com
+- ##### назвіть (хоча б одну) річ яка була для вас новою
+  У відео: SublimeText 3, Browser sync. Я використовую Visual Studio Code, Live Server.
+  Resources:
+- W3C
+- caniuse.com
+- validator.w3.org
+- csszengarden.com
 
- Вивчала HTML, CSS в Codecademy раніше, Bootstrap на інших ресурсах.
- - ##### назвіть (хоча б одну) річ яка вас здивувала
-Вчитися по відео мені складно, краще сприймаю інформацію, коли я її практикую. Майже все було знайомим.
+Вивчала HTML, CSS в Codecademy раніше, Bootstrap на інших ресурсах.
+
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+  Вчитися по відео мені складно, краще сприймаю інформацію, коли я її практикую. Майже все було знайомим.
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
 
 <!--
@@ -249,12 +260,12 @@ Resources:
 <!--audio, video, gif-->
 <!--<audio controls>
         <source src="" type="audio/mp3">
-      </audio> 
+      </audio>
       <video src="" controls>
       </video>
       <embed src=""/>
     </main>
-    <footer>  
+    <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
@@ -281,7 +292,7 @@ Resources:
         </tr>
         <tr>
           <td></td>
-          <td></td> 
+          <td></td>
         </tr>
         </tbody>
         <tfoot>
@@ -304,7 +315,7 @@ Resources:
 				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
         <br>
         <input type="submit" value="Submit">
-      </form> 
+      </form>
       -->
 
 <!--The purpose of a <form> is to allow users to input information and send it.
@@ -414,41 +425,49 @@ button {
 ### [Основи адаптивного веб-дизайну](https://web.dev/i18n/en/responsive-web-design-basics/)
 
 - ##### назвіть (хоча б одну) річ яка була для вас новою
+
 1. Встановити вікно перегляду
- <meta name="viewport" content="width=device-width, initial-scale=1">
-2. Розмір вмісту відповідно до області перегляду 
- - зображення 
- ```
- img {
-  max-width: 100%;
-  display: block;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+2. Розмір вмісту відповідно до області перегляду
+
+- зображення
+
+```
+img {
+ max-width: 100%;
+ display: block;
 }
- ```
-- Flexbox 
-- CSS Grid Layout 
+```
+
+- Flexbox
+- CSS Grid Layout
 - Макет із кількома стовпцями Multicol
-3. Використовуйте медіа-запити CSS для швидкої реакції 
- - width (min-width, max-width)
- - height (min-height, max-height)
- - orientation
- - aspect-ratio
- - hover
- - pointer
- - any-hover
- - any-pointer
-4. Виберіть основні точки зупину, починаючи з малого, а потім продовжуючи 
+
+3. Використовуйте медіа-запити CSS для швидкої реакції
+
+- width (min-width, max-width)
+- height (min-height, max-height)
+- orientation
+- aspect-ratio
+- hover
+- pointer
+- any-hover
+- any-pointer
+
+4. Виберіть основні точки зупину, починаючи з малого, а потім продовжуючи
 5. Перегляд точок зупинки медіа-запитів у Chrome DevTools
-  ```
+
+```
 @media (max-width: 600px) {
 }
 @media (min-width: 601px) {
 }
-  ```
+```
 
 - ##### назвіть (хоча б одну) річ яка вас здивувала
-В медіа-запитах використовується не лише ширина чи довжина екрану.
+  В медіа-запитах використовується не лише ширина чи довжина екрану.
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
-Медіа-запити, Flexbox, Grid ...
+  Медіа-запити, Flexbox, Grid ...
 
 ### [FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)
 
@@ -457,60 +476,67 @@ button {
 ![Flexbox Froggy](./task_responsive_web_design/flexbox-froggy.png)
 
 - ##### назвіть (хоча б одну) річ яка була для вас новою
-*order*
-.yellow {
-order: 3;
-}
- - ##### назвіть (хоча б одну) річ яка вас здивувала
-Переміщення елементів в іншому порядку.
+  _order_
+  .yellow {
+  order: 3;
+  }
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+  Переміщення елементів в іншому порядку.
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+
 ```
 section {
   display: flex;
 }
  display: inline-flex;
 ```
+
 ![flex container](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png)
 
-*flex-direction* визначає напрямок елементів в контейнері та може набувати наступних значень:
- - row: елементи розташовані так само, як напрямок тексту.
- - row-reverse: елементи розташовані протилежно напрямку тексту.
- - column: елементи розташовані з гори до низу.
- - column-reverse: елементи розташовані з низу до гори.
+_flex-direction_ визначає напрямок елементів в контейнері та може набувати наступних значень:
 
-*justify-content* вирівнює елементи по горизонталі й набуває таких значень:
- - flex-start: Елементи вирівнюються по лівій стороні контейнера.
- - flex-end: Елементи вирівнюються по правій стороні контейнера.
- - center: Елементи вирівнюються по центру контейнера.
- - space-between: Елементи буде зображено з рівними відступами поміж них.
- - space-around: Елементи буде зображено з рівними відступами навколо них.
+- row: елементи розташовані так само, як напрямок тексту.
+- row-reverse: елементи розташовані протилежно напрямку тексту.
+- column: елементи розташовані з гори до низу.
+- column-reverse: елементи розташовані з низу до гори.
 
-*align-items* вирівнює елементи вертикально і може набувати таких значень:
- - flex-start: елементи вирівнюються за верхнім краєм контейнеру.
- - flex-end: елементи вирівнюються за нижнім краєм контейнеру.
- - center: елементи вирівнюються вертикально по середині контейнера.
- - baseline: елементи буде розміщено на базовій лінії контейнера.
- - stretch: елементи розтягуються заповнюючи контейнер.
+_justify-content_ вирівнює елементи по горизонталі й набуває таких значень:
 
-*align-self* (застосувується до окремого елементу) вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості align-items. Ця властивість набуває тих самих значень, що й align-items:
+- flex-start: Елементи вирівнюються по лівій стороні контейнера.
+- flex-end: Елементи вирівнюються по правій стороні контейнера.
+- center: Елементи вирівнюються по центру контейнера.
+- space-between: Елементи буде зображено з рівними відступами поміж них.
+- space-around: Елементи буде зображено з рівними відступами навколо них.
+
+_align-items_ вирівнює елементи вертикально і може набувати таких значень:
+
+- flex-start: елементи вирівнюються за верхнім краєм контейнеру.
+- flex-end: елементи вирівнюються за нижнім краєм контейнеру.
+- center: елементи вирівнюються вертикально по середині контейнера.
+- baseline: елементи буде розміщено на базовій лінії контейнера.
+- stretch: елементи розтягуються заповнюючи контейнер.
+
+_align-self_ (застосувується до окремого елементу) вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості align-items. Ця властивість набуває тих самих значень, що й align-items:
 flex-start, flex-end, center, baseline, stretch
 
-*flex-wrap* :
+_flex-wrap_ :
 nowrap: Кожен елемент буде розташований один за одним в одному рядку. Ширина елементів встановлюється автоматично, щоб вміститись в рядок.
 wrap: Елементи переносятся до наступного рядка.
 wrap-reverse: Елементи переносятся до наступного рядка у зворотньому порядку.
 
-Дві властивості flex-direction та flex-wrap найчастіше використовуються разом, тому існує скорочена властивість *flex-flow*, що обʼєднує їх. Ця властивість приймає одне значення кожної з властивостей, які відокремлені пробілом.
+Дві властивості flex-direction та flex-wrap найчастіше використовуються разом, тому існує скорочена властивість _flex-flow_, що обʼєднує їх. Ця властивість приймає одне значення кожної з властивостей, які відокремлені пробілом.
 flex-flow: row wrap;
 
-*align-content*, щоб вказати як декілька рядків мають бути розташовані один до одного. Властивість набуває таких значень:
- - flex-start: Рядки буде розташовано вгорі контейнеру.
- - flex-end: Рядки буде розташовано внизу контейнеру.
- - center: Рядки групуються вертикально по центру контейнеру.
- - space-between: Рядки розташовуються з однаковими проміжками навколо них.
- - space-around: Рядки розташовуються з однаковими проміжками між ними.
- - stretch: Рядки розтягуються заповнюючи контейнер рівномірно.
- align-content визначає інтервал поміж рядками, в той час як *align-items* визначає, як елементи буде вирівняно в контейнері в цілому. Коли у вас лише один рядок, align-content не має ніякого ефекту.
+_align-content_, щоб вказати як декілька рядків мають бути розташовані один до одного. Властивість набуває таких значень:
+
+- flex-start: Рядки буде розташовано вгорі контейнеру.
+- flex-end: Рядки буде розташовано внизу контейнеру.
+- center: Рядки групуються вертикально по центру контейнеру.
+- space-between: Рядки розташовуються з однаковими проміжками навколо них.
+- space-around: Рядки розташовуються з однаковими проміжками між ними.
+- stretch: Рядки розтягуються заповнюючи контейнер рівномірно.
+  align-content визначає інтервал поміж рядками, в той час як _align-items_ визначає, як елементи буде вирівняно в контейнері в цілому. Коли у вас лише один рядок, align-content не має ніякого ефекту.
+
 ```
 *flex-basis*: auto; 500px; 30%;
 
@@ -521,6 +547,7 @@ flex-flow: row wrap;
 flex-grow, flex-shrink, flex-basis together:
 *flex*: 0 1 auto;
 ```
+
 [Шпаргалка по Flexbox](https://fls.guru/flexbox.html)
 
 ### [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)
@@ -528,20 +555,25 @@ flex-grow, flex-shrink, flex-basis together:
 ### [Grid Garden](http://cssgridgarden.com/) - гра для закріплення.
 
 - ##### назвіть (хоча б одну) річ яка була для вас новою
+
 ```
 order: 1;
 grid-temlate:
 [start] "header header" 100px [row2]
 [row2] "side content" 1fr [row-end] / 150px 1fr;
 ```
+
 - ##### назвіть (хоча б одну) річ яка вас здивувала
-Спосіб запису:
+  Спосіб запису:
+
 ```
 grid-temlate:
 [start] "header header" 100px [row2]
 [row2] "side content" 1fr [row-end] / 150px 1fr;
 ```
+
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+
 ```
 display:grid;
 display: inline-grid;
@@ -555,7 +587,7 @@ grid-rows-gap: 5px;
 grid-gap: 5px 10px; (rows) (columns)
 gap: 20px;
 
-grid-template-areas: 
+grid-template-areas:
 "header header header"
 "advert content content"
 "advert footer footer"
@@ -589,8 +621,24 @@ align-self(по вертикалі): stretch, start, end, center;
 justify-items: stretch(default), start, end, center;
 align-items: stretch(default), start, end, center;
 ```
+
 [CSS Grid Layout](https://fls.guru/grid.html)
 
+## HTML & CSS Practice: Hooli-style Popup
 
+### Links
 
+- Solution URL: [hooli-style-popup](https://github.com/Lara-trost/hooli-style-popup)
+- Live Site URL: [hooli-style-popup](https://lara-trost.github.io/hooli-style-popup/)
 
+##### назвіть (хоча б одну) річ яка була для вас новою
+
+Popup, checkbox
+
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+
+Невидимим елементам теж потрібен focus.
+
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+
+Приховування елементів, створення чекбоксу, focus, within-focus.
