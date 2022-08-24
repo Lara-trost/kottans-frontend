@@ -642,3 +642,28 @@ Popup, checkbox
 - ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
 
 Приховування елементів, створення чекбоксу, focus, within-focus.
+
+## JS Basics
+1. Вступ до JS.
+2. Вправи FreeCodeCamp. 
+### Screenshots
+
+![Coursera](./task_js_basics/js-coursera.png)
+![freecodecamp](./task_js_basics/js-one.png)
+![freecodecamp](./task_js_basics/js-two.png)
+![freecodecamp](./task_js_basics/js-three.png)
+
+##### назвіть (хоча б одну) річ яка була для вас новою
+
+Functional programming
+
+- ##### назвіть (хоча б одну) річ яка вас здивувала
+
+backwards compatibility
+
+- ##### назвіть (хоча б одну) річ яку ви збираєтесь використовувати у майбутньому
+
+function, let, const, array, object ...
+
+
+
